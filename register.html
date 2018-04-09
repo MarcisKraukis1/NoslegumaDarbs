@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="">
+                        <img src="https://veruca.io/wp-content/uploads/2016/10/Join-the-Rebellion-logo.png">
+                    </a>
+                </div>
+                <div class="col-sm-9">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="article.html">Articles</a>
+                        </li>
+                        <li>
+                            <a href="">Chat</a>
+                        </li>
+                        <li class="active">
+                            <a href="register.html">Register</a>
+                        </li>
+                        <li>
+                            <a href="aboutUs.html">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div clas="col">
+                    <p>Home > Login</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <h4>Register</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <form method="post" action="registrated.html" class="forma">
+                        <input type="text" name="username" placeholder="Username*" required>
+                        <br>
+                        <input minlength="8" name="password" type="password" id="password" placeholder="Password*" required>
+                        <br>
+                        <input type="password" id="password-repeat" placeholder="Retype password*" onblur="check()" required>
+                        <br>
+                        <input type="text" name="first-name" placeholder="First name*" required>
+                        <br>
+                        <input type="text" name="last-name" placeholder="Last name*" required>
+                        <br>
+
+                        <select name="country" required class="forma">
+                            <option value="" disabled selected>Country*</option>
+                            <option value="Latvia">Latvia</option>
+                            <option>Estonia</option>
+                            <option>Lithuania</option>
+                            <option>Russia</option>
+                            <option>Belarus</option>
+                        </select>
+                        <br>
+                        <input type="checkbox" id="checkbox" required>
+                        <label for="checkbox">Agree with terms and conditions*</label>
+                        <br>
+                        <input type="submit" id="register" value="Register">
+                        <br>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    &copy; some footer text
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

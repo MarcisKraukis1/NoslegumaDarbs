@@ -1,0 +1,111 @@
+img{
+    max-width: 100%;
+}
+.main-menu{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+}
+.main-menu li{
+    float: left;
+    margin-left: 20px;
+    line-height: 10vh;
+}
+.main-menu li.active a{
+    color:red;
+    font-weight: bold;
+}
+header{
+    background: pink;
+    border-bottom: 1px solid #666;
+    min-height: 10vh;
+}
+main{
+    margin-top: 10px;
+    min-height: 80vh;
+}
+footer {
+    text-align: center;
+    min-height: 10vh;
+    line-height: 50px;
+    border-top:1px solid #666;
+}
+.articleHeight{
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.bottomStripe{
+    border-bottom: 2px solid grey;
+    padding-left: 0px;
+}
+.pages {
+    display: inline-block;
+}
+
+.pages a {
+    color: black;
+    float: left;
+    padding: 0px 1px;
+    text-decoration: none;
+    border-right: solid grey;
+    border-width: thin;
+}
+.pagesheight{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+}
+.pagesRight{
+    text-align: right;
+}
+.tab-content{
+    border: 1px solid greenyellow;
+    padding: 20px 5px 20px 5px;
+}
+.nav-tabs li {
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 5px 5px 0px 0px;
+} 
+.tab{
+padding-left: 5px;
+
+}
+.tab p {
+    word-wrap: break-word;
+}
+.tabbox{
+    padding-right: 0px;
+}
+.tabright{
+    padding-right: 0px;
+}
+#map{
+    width:450px;
+    height:400px;
+}
+.mape{
+    margin-bottom: 20px;
+}
+label{
+    font-weight: normal;
+}
+.forma{
+    margin-bottom: 10px;
+}
+.forma input{
+    margin-bottom: 10px;
+}
+.thumbnails a img{
+    margin-bottom: 15px;
+}
+.mainfoto a img{
+    margin-bottom: 15px;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
